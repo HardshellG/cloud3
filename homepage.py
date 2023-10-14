@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-import  Engineering.py, home.py
+import  Engineering, home
 st.set_page_config(
         page_title="ExamTimeLine",
 )
@@ -33,10 +33,10 @@ class MultiApp:
                 
                 )    
 
-        if app == 'Engineering.py':
-            Engineering.py.app()
-        if app == 'home.py':
-           home.py.app()
+        if app == 'Engineering':
+            Engineering.app()
+        if app == 'home':
+           home.app()
           
         
 
