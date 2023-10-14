@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-import  Engineering, home
+import  Engineering.py, home.py
 st.set_page_config(
         page_title="ExamTimeLine",
 )
