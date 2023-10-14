@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import after12th, jee, MHTCET , COMEDK ,BITSAT, WBJEE
+import after12th, jee.py, MHTCET.py, COMEDK.py,BITSAT.py, WBJEE.py
 def app(): 
  class MultiApp:
 
