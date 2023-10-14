@@ -33,10 +33,10 @@ class MultiApp:
                 
                 )    
 
-        if app == 'Engineering':
-            Engineering.app()
+        if app == 'Engineering.py':
+            Engineering.py.app()
         if app == 'home':
-           home.app()
+           home.py.app()
           
         
 
