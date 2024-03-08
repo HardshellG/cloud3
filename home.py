@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 import random
 def app():
-     st.title("home")
      st.title("Home") 
      
 st.sidebar.success("Mini Project")                                  
