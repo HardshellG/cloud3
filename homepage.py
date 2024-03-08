@@ -34,9 +34,9 @@ class MultiApp:
                 )    
 
         if app == 'home':
-            Engineering.app()
+            home.app()
         if app == 'Engineering':
-           home.app()
+           Engineering.app()
           
         
 
