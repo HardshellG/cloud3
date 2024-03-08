@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-import  Engineering , home
+import home,Engineering 
 st.set_page_config(
         page_title="ExamTimeLine",
 )
@@ -21,8 +21,8 @@ class MultiApp:
         with st.sidebar:
             app = option_menu(
                 menu_title='ExamTimeLine',
-                options=['Engineering','home'],
-                icons=[ 'person-circle','house-fill'],
+                options=['home','Engineering'],
+                icons=[ 'house-fill', 'person-circle'],
                 menu_icon='chat-text-fill',
                 default_index=1,
                 styles={
@@ -33,9 +33,9 @@ class MultiApp:
                 
                 )    
 
-        if app == 'Engineering':
-            Engineering.app()
         if app == 'home':
+            Engineering.app()
+        if app == 'Engineering':
            home.app()
           
         
