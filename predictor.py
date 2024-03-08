@@ -138,8 +138,8 @@ def app():
     # Add more IITs and courses here...
 }
 # Function to predict colleges and courses based on rank
-def college_predictor(rank):
-    predictions = []
+     def college_predictor(rank):
+     predictions = []
     for college, courses in college_data.items():
         for course, cutoff in courses.items():
             if rank <= cutoff:
@@ -160,6 +160,6 @@ if rank > 0:
         st.warning("No colleges found for the given rank.")
 else:
     st.warning("Please enter a valid rank.")
-
+                                      
 # You would typically connect to a database or an API to get real data.
 # This is just a simplified example for demonstration.
