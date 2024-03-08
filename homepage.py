@@ -37,6 +37,6 @@ class MultiApp:
             home.app()
         if app == 'Engineering':
            Engineering.app()
-        if app == 'predictor' :
-           predictor.app() :
+        if app == 'predictor':
+           predictor.app() 
     run()                                         
