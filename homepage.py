@@ -21,7 +21,7 @@ class MultiApp:
         with st.sidebar:
             app = option_menu(
                 menu_title='ExamTimeLine',
-                options=['home','Engineering'],
+                options=['home','Engineering','predictor'],
                 icons=[ 'house-fill', 'person-circle'],
                 menu_icon='chat-text-fill',
                 default_index=1,
@@ -37,7 +37,6 @@ class MultiApp:
             home.app()
         if app == 'Engineering':
            Engineering.app()
-          
-        
-
+        if app == 'predictor' :
+           predictor.app() :
     run()                                         
