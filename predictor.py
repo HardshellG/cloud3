@@ -1,7 +1,7 @@
 import streamlit as st
 def app():
 # Sample data for demonstration (you would need a more extensive database)
-college_data = {
+ college_data = {
     "IIT Bombay": {
         "Computer Science": 100,
         "Mechanical Engineering": 200,
