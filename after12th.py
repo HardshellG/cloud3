@@ -10,7 +10,7 @@ def app():
     
     df = pd.DataFrame(data)
     
-       st.dataframe(df, column_config={"Website": st.column_config.LinkColumn()})
+    st.dataframe(df, column_config={"Website": st.column_config.LinkColumn()})
 
 
  
